@@ -1,0 +1,155 @@
+.fm {
+    width: 40%;
+    align-content: center;
+    justify-content: center;
+    display: block;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+body {
+    background-image: url(back.jpg);
+}
+
+form {
+    align-content: center;
+    justify-content: center;
+    display: block;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: dimgrey;
+    height: 350px;
+    color: white;
+}
+
+form input {
+    color: aliceblue;
+    width: 97%;
+    height: 20px;
+    padding: 10px;
+}
+
+form input placeholder {
+    color: orangered;
+}
+
+.wrapper {
+    width: 38%;
+    height: 50%;
+    position: absolute;
+    margin-left: 2px;
+    left: 14%;
+    top: 75%;
+    bottom: 20%;
+    background-color: black;
+    border-style: double;
+    font-weight: bold;
+    border-color: dimgrey;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 20px;
+    border-radius: 60px;
+    display: flex;
+    padding: 0px;
+}
+
+.fm form input {
+    width: 400px;
+    border-radius: 60px;
+    background: darkgrey;
+}
+
+#navbar {
+    border: 2px solid black;
+    background-image: linear-gradient(90deg, lightgrey, grey);
+    height: 70px;
+    padding-top: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(white, grey);
+    font-size: 20px;
+    font-weight: 300px;
+    margin-top: 3px;
+}
+
+#navbar ul {
+    list-style: none;
+    text-decoration: none;
+    display: block;
+}
+
+#navbar ul li {
+    display: inline;
+    font-weight: 300px;
+}
+
+#navbar ul li a {
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    COLOR: black;
+    display: inline;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar ul li a:hover {
+    color: lime;
+    background-color: black;
+}
+
+#navbar ul li a:active {
+    color: aqua;
+    background-color: greenyellow;
+}
+
+.heading1 {
+    border: 1px solid blue;
+    background-image: linear-gradient(215deg, blue, red);
+    height: 90px;
+    margin-bottom: 2px;
+    display: block;
+    border-radius: 20px;
+    color: white;
+}
+
+.h1 {
+    margin-left: 60%;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#myTable1 {
+    margin-left: 50%;
+    width: 600px;
+    height: 60px;
+    padding: 10px, 10px, 10px, 10px;
+    align-content: center;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(75, 70, 70);
+    color: white;
+    border: 1px solid black;
+}
+
+.here {
+    margin-top: 330px;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 500px;
+    height: opx;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.body1 {
+    padding: 20px;
+}
